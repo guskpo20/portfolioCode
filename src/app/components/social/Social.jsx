@@ -1,5 +1,5 @@
 "use client";
-import {React} from 'react'
+import {React, useState} from 'react'
 import { useTheme } from '@/context/ThemeContext'
 
 import Image from 'next/image'
@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 import At from "@/../public/at.svg"
 import Copy from "@/../public/copy.svg"
+import Check from "@/../public/check.svg"
 import LinkedinImg from "@/../public/linkedin.png"
 import InstagramImg from "@/../public/instagram.webp"
 import ItchioImg from "@/../public/itchio.png"
@@ -19,6 +20,7 @@ import styles from './social.module.scss'
 /* import textsFiles from "./texts.json"
  */
 function Social() {
+    const [copied, setCopied] = useState(false);
     const {isDarkMode, userLang} = useTheme();
     /* const [texts, setTexts] = useState(textsFiles.español) */
 
@@ -27,6 +29,15 @@ function Social() {
         setTexts(textsFiles.english)
       }
     }, [userLang]) */
+
+    const handleCopy = (e) =>{
+      navigator.clipboard.writeText("gustavo.keymetlian@outlook.com");
+      setCopied(true);
+      
+      setTimeout(() => {
+        setCopied(false)
+      }, 1500);
+    }
 
   return (
     <section className={`${styles.social} ${isDarkMode ? styles.dark : styles.light}`}>
@@ -58,7 +69,7 @@ function Social() {
         </div>
         <div className={`${styles.flex} ${styles.sendEmail}`}>
           <Link className={`${styles.sendEmail_Link}`} href="mailto: gustavo.keymetlian@outlook.com">gustavo.keymetlian@outlook.com</Link>
-          <Image src={Copy} alt="Book image" width={30} height={30} />
+          <Image onClick={(e) => handleCopy(e)} src={ copied ? Check : Copy} alt="Book image" width={30} height={30} />
         </div>
     </section>
   )

@@ -53,14 +53,9 @@
             @media (max-width: 740px) {
                 width: 100%;
             }
-            *{
-                transform: translate(50px, 50px);
-                transition: ease-in-out .5s;
-                border-radius: 30px;
-            }
-            *:hover{
-                transition: ease-in-out .5s;
-                transform: translate(0px, 0px);
+
+            img{
+                width: 100% !important;
             }
         }
 
