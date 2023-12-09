@@ -20,6 +20,12 @@
                 box-shadow: rgba(184, 182, 182, 0.24) 0px 3px 8px;
             }
         }
+
+        .sendEmail{
+            &_Link{
+                color: $text-color-dark; 
+            }
+        }
     }
 
     h2{
@@ -74,7 +80,7 @@
             display: flex;
             align-items: center;
             max-width: 80%;
-            background-color: rgb(226, 225, 225);
+            outline: 2px solid rgb(226, 225, 225);
             color: $text-color-light;
             text-decoration: none;
             width: 100%;
