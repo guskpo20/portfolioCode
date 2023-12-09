@@ -1,11 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "abstracts/colors";
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  background:$bg-light ;
+  &.dark{
+    background-color: $bg-dark;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +20,36 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background:white ;
+  
   max-width: 728px;
   margin:0 auto;
+
+  .father{
+    margin-top: 10px;
+    position: relative;
+  }
+}
+
+.toggleButon{
+  position: absolute;
+  right:0;
+  border-radius: 999px;
+  background-color: $highlight-color;
+  padding: 0.75rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #237bad;
+  }
+
+  .icon{
+    height: 1.75rem;
+    width: 1.75rem;
+    color: white;
+  }
 }

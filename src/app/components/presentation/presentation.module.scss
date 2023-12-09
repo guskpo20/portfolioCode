@@ -1,0 +1,83 @@
+@import "../../abstracts/colors";
+
+.presentation{
+  display: flex;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  border-bottom: 2px dotted grey;
+
+  @media (max-width: 1250px) {
+    padding: 20px;
+  }
+
+
+  &.dark{
+    color: white;
+
+    .profilePhoto{
+      border: 10px solid rgb(46, 46, 46) !important;
+    }
+  }
+
+  .name{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: .2;
+    @media (max-width: 355px) {
+      line-height: 1;
+    }
+  }
+
+  .description{
+    opacity: 0.7;
+  }
+
+  .profilePhoto{
+    background-color: $highlight-color;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 10px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+
+  .flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+  }
+
+
+
+
+  .downloadSection{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid $highlight-color;
+    color: $highlight-color;
+    width: 150px;
+    height: 30px;
+    font-weight: 600;
+    text-decoration: none;
+
+    &.english{
+      width: 180px !important;
+    }
+
+    
+  }
+}

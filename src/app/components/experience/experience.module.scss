@@ -1,0 +1,56 @@
+@import "../../abstracts/colors";
+
+.experiences{
+
+    margin-top: 30px;
+
+    color: $text-color-light;
+
+    @media (max-width: 733px) {
+        padding: 0 20px;
+    }
+
+    &.dark{
+        color: $text-color-dark;
+        
+        .separator{
+            border-bottom: 1px solid $text-color-dark !important;
+        }
+    }
+
+    h2{
+        color: $highlight-color;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 733px) {
+            margin-bottom: 20px;
+        }
+        
+    }
+
+    .separator{
+        border-bottom: 1px solid $text-color-light;
+        margin-bottom: 20px;
+    }
+    
+    .experience{
+        margin-bottom: 20px;
+
+        p{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .greyText{
+            opacity: .7;
+        }
+
+        ul{
+            padding-left:18px;
+        }
+    }
+}

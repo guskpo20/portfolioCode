@@ -1,0 +1,113 @@
+@import "../../abstracts/colors";
+
+.projects{
+    
+    margin-top: 30px;
+
+    color: $text-color-light;
+
+    @media (max-width: 733px) {
+        padding: 0 20px;
+    }
+
+    &.dark{
+        color: $text-color-dark;
+
+        .button{
+            background-color: $text-color-dark !important;
+            color: $text-color-light !important;
+        }
+    }
+
+    h2{
+        color: $highlight-color;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 733px) {
+            margin-bottom: 20px;
+        }
+        
+    }
+    
+    .project{
+        margin-bottom: 30px;
+        @media (max-width: 740px) {
+            margin-bottom: 60px;
+        }
+       
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .imgContainer{
+            width: 374px;
+            height: 200px;
+            overflow: hidden;
+            background-color: $highlight-color;
+            border-radius: 30px;
+            @media (max-width: 740px) {
+                width: 100%;
+            }
+            *{
+                transform: translate(50px, 50px);
+                transition: ease-in-out .5s;
+                border-radius: 30px;
+            }
+            *:hover{
+                transition: ease-in-out .5s;
+                transform: translate(0px, 0px);
+            }
+        }
+
+        .gap{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .projectTitle{
+                font-size: 1.4rem;
+            }
+    
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+    
+            .greyText{
+                opacity: .7;
+                max-width: calc(728px - 394px);
+            }
+
+            .techImgs{
+                display: flex;
+                gap: 5px;
+            }
+
+            .buttons{
+                display: flex;
+                gap: 20px;
+            }
+            
+            .button{
+                width: 100px;
+                height: 40px;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: $text-color-light;
+                color: $text-color-dark;
+                text-decoration: none;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        
+    }
+}

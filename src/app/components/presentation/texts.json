@@ -1,0 +1,10 @@
+{
+    "español":{
+        "description" : "Apasionado por el desarrollo y el gaming",
+        "download": "Descargar CV"
+    },
+    "english":{
+        "description" : "Passionate about development and gaming",
+        "download": "Download Resume"
+    }
+}
