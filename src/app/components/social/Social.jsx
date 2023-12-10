@@ -46,19 +46,19 @@ function Social() {
             <Image src={At} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.socials}`}>
-            <Link href="https://www.linkedin.com/in/gustavo-keymetlian/" className={`${styles.socialButton}`}>
+            <Link target='_blank' href="https://www.linkedin.com/in/gustavo-keymetlian/" className={`${styles.socialButton}`}>
               <Image src={LinkedinImg} alt="React image" width={25} height={25} />
               LinkedIn
             </Link>
-            <Link href="https://www.instagram.com/tavo_ke/" className={`${styles.socialButton}`}>
+            <Link  target='_blank' href="https://www.instagram.com/tavo_ke/" className={`${styles.socialButton}`}>
               <Image src={InstagramImg} alt="React image" width={25} height={25} />
               Instagram
             </Link>
-            <Link href="https://kustaa-uy.itch.io" className={`${styles.socialButton}`}>
+            <Link  target='_blank' href="https://kustaa-uy.itch.io" className={`${styles.socialButton}`}>
               <Image src={ItchioImg} alt="React image" width={25} height={25} />
               itch.io
             </Link>
-            <Link href="https://github.com/guskpo20" className={`${styles.socialButton}`}>
+            <Link  target='_blank' href="https://github.com/guskpo20" className={`${styles.socialButton}`}>
               <Image src={GithubImg} alt="React image" width={25} height={25} />
               Github
             </Link>
