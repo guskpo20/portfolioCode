@@ -1,5 +1,5 @@
 "use client";
-import {React} from 'react'
+import {React, useState, useEffect} from 'react'
 import { useTheme } from '@/context/ThemeContext'
 
 import Image from 'next/image'
@@ -25,22 +25,22 @@ import NodeImg from "@/../public/node.png"
 
 import styles from './knowledge.module.scss'
 
-/* import textsFiles from "./texts.json"
- */
+import textsFiles from "./texts.json"
+
 function Knowledge() {
     const {isDarkMode, userLang} = useTheme();
-    /* const [texts, setTexts] = useState(textsFiles.español) */
+    const [texts, setTexts] = useState(textsFiles.español)
 
-   /*  useEffect(() => {
+    useEffect(() => {
       if(userLang == "en"){
         setTexts(textsFiles.english)
       }
-    }, [userLang]) */
+    }, [userLang])
 
   return (
     <section className={`${styles.knowledge} ${isDarkMode ? styles.dark : styles.light}`}>
         <div className={`${styles.flex}`}>
-          <h2>Knowledge</h2>
+          <h2>{texts.title}</h2>
           <Image src={Book} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.knowImgs}`}>

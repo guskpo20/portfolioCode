@@ -23,22 +23,22 @@ import UnityImg from "@/../public/unity.png"
 
 import styles from './projects.module.scss'
 
-/* import textsFiles from "./texts.json"
- */
+import textsFiles from "./texts.json"
+
 function Projects() {
     const {isDarkMode, userLang} = useTheme();
-    /* const [texts, setTexts] = useState(textsFiles.español) */
+    const [texts, setTexts] = useState(textsFiles.español)
 
-   /*  useEffect(() => {
+    useEffect(() => {
       if(userLang == "en"){
         setTexts(textsFiles.english)
       }
-    }, [userLang]) */
+    }, [userLang])
 
   return (
     <section className={`${styles.projects} ${isDarkMode ? styles.dark : styles.light}`}>
         <div className={`${styles.flex}`}>
-            <h2>Projects</h2>
+            <h2>{texts.title}</h2>
             <Image src={list} alt="list image" width={30} height={30} />
         </div>
         <div className={`${styles.project}`}>
@@ -46,8 +46,8 @@ function Projects() {
             <Image src={TaskManagerImg} width={500} height={300} alt="Project Image" />
           </div>
           <div className={`${styles.gap}`}> 
-            <p className={`${styles.projectTitle}`}>Administrador de tareas</p>
-            <div className={`${styles.greyText}`}>Simple administrador de tareas. Pudiendo agregar, editar y quitar tareas</div>
+            <p className={`${styles.projectTitle}`}>{texts.projects[0].title}</p>
+            <div className={`${styles.greyText}`}>{texts.projects[0].description}</div>
             <div className={`${styles.techImgs}`}>
             <Image src={ReactImg} width={30} height={30} alt="React Logo" />
             <Image src={TailwindImg} width={30} height={30} alt="Tailwind Logo" />
@@ -64,8 +64,8 @@ function Projects() {
             <Image src={BudgetManager} width={500} height={300} alt="Project Image" />
           </div>
           <div className={`${styles.gap}`}> 
-            <p className={`${styles.projectTitle}`}>Administrador de presupuestos</p>
-            <div className={`${styles.greyText}`}>Simple administrador de presupuestos. Le damos el presupuesto total con el que contamos y nos muestra con datos y graficas los gastos</div>
+            <p className={`${styles.projectTitle}`}>{texts.projects[1].title}</p>
+            <div className={`${styles.greyText}`}>{texts.projects[1].description}</div>
             <div className={`${styles.techImgs}`}>
             <Image src={ReactImg} width={30} height={30} alt="React Logo" />
             <Image src={TailwindImg} width={30} height={30} alt="Tailwind Logo" />
@@ -82,8 +82,8 @@ function Projects() {
             <Image src={Administrator} width={500} height={300} alt="Project Image" />
           </div>
           <div className={`${styles.gap}`}> 
-            <p className={`${styles.projectTitle}`}>Administrador de citas</p>
-            <div className={`${styles.greyText}`}>Administrador de citas. Pudiendo agregar, editar y quitar pacientes</div>
+            <p className={`${styles.projectTitle}`}>{texts.projects[2].title}</p>
+            <div className={`${styles.greyText}`}>{texts.projects[2].description}</div>
             <div className={`${styles.techImgs}`}>
             <Image src={ReactImg} width={30} height={30} alt="React Logo" />
             <Image src={TailwindImg} width={30} height={30} alt="Tailwind Logo" />
@@ -100,8 +100,8 @@ function Projects() {
             <Image src={JumpGame} width={500} height={300} alt="Project Image" />
           </div>
           <div className={`${styles.gap}`}> 
-            <p className={`${styles.projectTitle}`}>Pincha el circulo</p>
-            <div className={`${styles.greyText}`}>Juego donde tenemos que saltar de una plataforma a la otra haciendo click en la mitad inferior de la pantalla</div>
+            <p className={`${styles.projectTitle}`}>{texts.projects[3].title}</p>
+            <div className={`${styles.greyText}`}>{texts.projects[3].description}</div>
             <div className={`${styles.techImgs}`}>
             <Image src={CSharpImg} width={30} height={30} alt="C# Logo" />
             <Image src={UnityImg} width={30} height={30} alt="Tailwind Logo" />
@@ -116,8 +116,8 @@ function Projects() {
             <Image src={NeedgleGame} width={500} height={300} alt="Project Image" />
           </div>
           <div className={`${styles.gap}`}> 
-            <p className={`${styles.projectTitle}`}>Pincha el circulo</p>
-            <div className={`${styles.greyText}`}>Juego donde tenemos que lanzar agujas y pinchar el circulo. Cuidado! que dos agujas no se toquen la cabeza porque pierdes!</div>
+            <p className={`${styles.projectTitle}`}>{texts.projects[4].title}</p>
+            <div className={`${styles.greyText}`}>{texts.projects[4].description}</div>
             <div className={`${styles.techImgs}`}>
             <Image src={CSharpImg} width={30} height={30} alt="C# Logo" />
             <Image src={UnityImg} width={30} height={30} alt="Tailwind Logo" />

@@ -1,5 +1,5 @@
 "use client";
-import {React, useState} from 'react'
+import {React, useState, useEffect} from 'react'
 import { useTheme } from '@/context/ThemeContext'
 
 import Image from 'next/image'
@@ -17,18 +17,18 @@ import Email from "@/../public/email.svg"
 
 import styles from './social.module.scss'
 
-/* import textsFiles from "./texts.json"
- */
+import textsFiles from "./texts.json"
+
 function Social() {
     const [copied, setCopied] = useState(false);
     const {isDarkMode, userLang} = useTheme();
-    /* const [texts, setTexts] = useState(textsFiles.español) */
+    const [texts, setTexts] = useState(textsFiles.español)
 
-   /*  useEffect(() => {
+    useEffect(() => {
       if(userLang == "en"){
         setTexts(textsFiles.english)
       }
-    }, [userLang]) */
+    }, [userLang])
 
     const handleCopy = (e) =>{
       navigator.clipboard.writeText("gustavo.keymetlian@outlook.com");
@@ -42,7 +42,7 @@ function Social() {
   return (
     <section className={`${styles.social} ${isDarkMode ? styles.dark : styles.light}`}>
         <div className={`${styles.flex}`}>
-            <h2>Socials</h2>
+            <h2>{texts.title}</h2>
             <Image src={At} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.socials}`}>

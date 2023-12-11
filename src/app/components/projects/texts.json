@@ -1,0 +1,52 @@
+{
+    "english":{
+        "title":"Projects",
+        "projects": [
+            {
+                "title": "Task Manager",
+                "description": "Simple task manager allowing users to add, edit, and remove tasks."
+            },
+            {
+                "title": "Budget Manager",
+                "description": "Simple budget manager. Enter the total budget, and it displays expenses with data and graphics."
+            },
+            {
+                "title": "Appointment Manager",
+                "description": "Appointment manager allowing users to add, edit, and remove patients."
+            },
+            {
+                "title": "Tap the Circle",
+                "description": "Game where the objective is to jump from one platform to another by clicking on the bottom half of the screen."
+            },
+            {
+                "title": "Pop the Circle",
+                "description": "Game where the objective is to throw needles and pop the circle. Be careful! If two needles touch each other, you lose!"
+            }
+        ]
+    },
+    "español":{
+        "title": "Projectos",
+        "projects":[
+            {
+                "title":"Administrador de tareas",
+                "description": "Simple administrador de tareas. Pudiendo agregar, editar y quitar tareas"
+            },
+            {
+                "title":"Administrador de presupuestos",
+                "description": "Simple administrador de presupuestos. Le damos el presupuesto total con el que contamos y nos muestra con datos y graficas los gastos"
+            },
+            {
+                "title":"Administrador de citas",
+                "description": "Administrador de citas. Pudiendo agregar, editar y quitar pacientes"
+            },
+            {
+                "title":"Pincha el circulo",
+                "description": "Juego donde tenemos que saltar de una plataforma a la otra haciendo click en la mitad inferior de la pantalla"
+            },
+            {
+                "title":"Pincha el circulo",
+                "description": "Juego donde tenemos que lanzar agujas y pinchar el circulo. Cuidado! que dos agujas no se toquen la cabeza porque pierdes!"
+            }
+        ]
+    }
+}
