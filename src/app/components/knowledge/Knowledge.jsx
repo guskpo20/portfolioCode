@@ -52,7 +52,6 @@ function Knowledge() {
           <Image src={ReactImg} alt="React image" width={50} height={50} />
           <Image src={TailwindImg} alt="React image" width={50} height={50} />
           <Image src={ViteImg} alt="React image" width={50} height={50} />
-          <Image src={LinkImg} alt="React image" width={50} height={50} />
           <Image src={CSharpImg} alt="React image" width={50} height={50} />
           <Image src={UnityImg} alt="React image" width={50} height={50} />
           <Image src={VueImg} alt="React image" width={50} height={50} />
