@@ -44,20 +44,48 @@ function Knowledge() {
           <Image src={Book} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.knowImgs}`}>
-          <Image src={HtmlImg} alt="React image" width={50} height={50} />
-          <Image src={CssImg} alt="React image" width={50} height={50} />
-          <Image src={JsImg} alt="React image" width={50} height={50} />
-          <Image src={TsImg} alt="React image" width={50} height={50} />
-          <Image src={NodeImg} alt="React image" width={50} height={50} />
-          <Image src={ReactImg} alt="React image" width={50} height={50} />
-          <Image src={TailwindImg} alt="React image" width={50} height={50} />
-          <Image src={ViteImg} alt="React image" width={50} height={50} />
-          <Image src={CSharpImg} alt="React image" width={50} height={50} />
-          <Image src={UnityImg} alt="React image" width={50} height={50} />
-          <Image src={VueImg} alt="React image" width={50} height={50} />
-          <Image src={NextImg} alt="React image" width={50} height={50} />
-          <Image src={SalesforceImg} alt="React image" width={50} height={50} />
-          <Image src={VeevaImg} alt="React image" width={50} height={50} />
+          <div>
+            <Image src={HtmlImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={CssImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={JsImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={TsImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={NodeImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={ReactImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={TailwindImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={ViteImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={CSharpImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={UnityImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={VueImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={NextImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={SalesforceImg} alt="React image" width={50} height={50} />
+          </div>
+          <div>
+            <Image src={VeevaImg} alt="React image" width={50} height={50} />
+          </div>
         </div>
     </section>
   )
