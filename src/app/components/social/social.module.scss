@@ -75,6 +75,9 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        @media (max-width: 375px) {
+            justify-content: space-between;
+        }
 
         &_Link{
             display: flex;
@@ -89,7 +92,7 @@
             border-radius: 20px;
             overflow: hidden;
             @media (max-width: 375px) {
-                max-width: 70%;
+                max-width: 80%;
                 padding-left: 5px;
             }
         }

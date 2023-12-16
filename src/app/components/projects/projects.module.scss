@@ -32,11 +32,20 @@
         }
         
     }
+
+    hr{
+        display: none;
+        @media (max-width: 740px) {
+            margin: 30px 0;
+            display: block;
+        }
+       
+    }
     
     .project{
         margin-bottom: 30px;
         @media (max-width: 740px) {
-            margin-bottom: 60px;
+            margin-bottom: 0px;
         }
        
         display: flex;

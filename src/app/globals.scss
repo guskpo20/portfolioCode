@@ -43,6 +43,10 @@ body {
   width: auto;
   cursor: pointer;
 
+  @media (max-width: 740px) {
+    right: 10px !important;
+  }
+
   &:hover{
     background-color: #237bad;
   }

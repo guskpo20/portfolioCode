@@ -59,6 +59,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        <hr></hr>
         <div className={`${styles.project}`}>
           <div className={`${styles.imgContainer}`}>
             <Image src={BudgetManager} width={500} height={300} alt="Project Image" />
@@ -77,6 +78,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        <hr></hr>
         <div className={`${styles.project}`}>
           <div className={`${styles.imgContainer}`}>
             <Image src={Administrator} width={500} height={300} alt="Project Image" />
@@ -95,6 +97,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        <hr></hr>
         <div className={`${styles.project}`}>
           <div className={`${styles.imgContainer}`}>
             <Image src={JumpGame} width={500} height={300} alt="Project Image" />
@@ -111,6 +114,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        <hr></hr>
         <div className={`${styles.project}`}>
           <div className={`${styles.imgContainer}`}>
             <Image src={NeedgleGame} width={500} height={300} alt="Project Image" />
@@ -127,6 +131,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        <hr></hr>
     </section>
   )
 }
