@@ -29,7 +29,7 @@ function Presentation() {
         <p className={`${styles.description}`}>{texts.description}</p>
         <div className={`${styles.flex}`}>
         <Image src={dev} width={35} height={35} alt="download image"/>
-        <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "@/../public/GustavoKeymetlianEnglish.pdf" : "@/../public/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={downloadImg} width={15} height={15} alt="download image"/></a>
+        <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={downloadImg} width={15} height={15} alt="download image"/></a>
         </div>
       </div>
     </section>
