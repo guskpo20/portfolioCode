@@ -10,6 +10,7 @@ export const ThemeProvider = ({children}) => {
     const toggleTheme = () =>{
         setIsDarkMode(!isDarkMode);
         document.documentElement.classList.toggle("dark")
+        document.getElementsByTagName("body")[0].classList.toggle("dark")
     }
 
     const [userLang, setUserLang] = useState("es")

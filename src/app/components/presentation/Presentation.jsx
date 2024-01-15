@@ -35,7 +35,6 @@ function Presentation() {
           </div>
         </div>
       </div>
-     <hr />
     </section>
     </>
   )

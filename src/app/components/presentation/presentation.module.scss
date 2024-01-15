@@ -4,6 +4,8 @@
   
   color: black;
 
+  border-bottom: 1px solid black;
+
   >div{
     display: flex;
     min-height: 250px;
@@ -21,8 +23,9 @@
   &.dark{
     color: white;
 
+    border-bottom: 1px solid white;
     .profilePhoto{
-      border: 10px solid rgb(46, 46, 46) !important;
+      border: 10px solid white !important;
     }
   }
 
@@ -30,8 +33,8 @@
     font-size: 2rem;
     font-weight: bold;
     line-height: .2;
-    @media (max-width: 355px) {
-      line-height: 1;
+    @media (max-width: 380px) {
+      line-height: 1 !important;
     }
   }
 
@@ -44,7 +47,8 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 10px solid white;
+    
+    border: 10px solid rgb(46, 46, 46) ;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
