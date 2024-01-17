@@ -95,7 +95,7 @@ body {
   }
 }
 
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .offScreen{
     transform: translateX(400%);
     transition: transform 1s ease;
@@ -108,6 +108,6 @@ body {
   .offScreen:nth-of-type(even){
     transform: translateX(-400%);
   }
-} */
+}
 
 
