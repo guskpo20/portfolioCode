@@ -13,7 +13,6 @@ import { SunIcon, MoonIcon } from '@heroicons/react/20/solid'
 function Home() {
 
   const { isDarkMode, toggleTheme} = useTheme();
-
   
   const checkBoxes = () => {
     let content = document.querySelectorAll(".offScreen")
@@ -35,6 +34,7 @@ function Home() {
   }, [isDarkMode])
 
   useEffect(() => {
+    
     checkBoxes();
     
     window.addEventListener('scroll', checkBoxes);

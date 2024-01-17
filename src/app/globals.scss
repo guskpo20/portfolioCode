@@ -52,11 +52,22 @@ body {
   -webkit-backdrop-filter: blur(5px);
 
   &.dark{
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.301);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+
+    .toggleButon{
+      background-color:#59bffa;
+      &:hover{
+        background-color: #237bad;
+      }
+    }
+
+    h2{
+      color: #59bffa;
+    }
   }
 
   border-radius: 30px;
@@ -85,7 +96,7 @@ body {
   }
 
   &:hover{
-    background-color: #237bad;
+    background-color: #8b50df;
   }
 
   .icon{
@@ -108,6 +119,10 @@ body {
   .offScreen:nth-of-type(even){
     transform: translateX(-400%);
   }
+}
+
+.svg{
+  color: #f7137e !important;
 }
 
 

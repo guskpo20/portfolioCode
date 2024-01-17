@@ -8,11 +8,15 @@ import Link from 'next/link';
 import At from "@/../public/at.svg"
 import Copy from "@/../public/copy.svg"
 import Check from "@/../public/check.svg"
+import Email from "@/../public/email.svg"
+import At_dark from "@/../public/at_dark.svg"
+import Copy_dark from "@/../public/copy_dark.svg"
+import Check_dark from "@/../public/check_dark.svg"
+import Email_dark from "@/../public/email_dark.svg"
 import LinkedinImg from "@/../public/linkedin.png"
 import InstagramImg from "@/../public/instagram.webp"
 import ItchioImg from "@/../public/itchio.png"
 import GithubImg from "@/../public/github.png"
-import Email from "@/../public/email.svg"
 
 
 import styles from './social.module.scss'
@@ -43,7 +47,7 @@ function Social() {
     <section className={`${styles.social} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
-            <Image src={At} alt="Book image" width={30} height={30} />
+            <Image src={isDarkMode ? At_dark : At} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.socials}`}>
             <Link target='_blank' href="https://www.linkedin.com/in/gustavo-keymetlian/" className={`${styles.socialButton}`}>
@@ -65,11 +69,11 @@ function Social() {
         </div>
         <div className={`${styles.flex} ${styles.email}`}>
             <h2>Email</h2>
-            <Image src={Email} alt="Book image" width={30} height={30} />
+            <Image src={isDarkMode ? Email_dark : Email} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.flex} ${styles.sendEmail}`}>
           <Link className={`${styles.sendEmail_Link}`} href="mailto: gustavo.keymetlian@outlook.com">gustavo.keymetlian@outlook.com</Link>
-          <Image onClick={(e) => handleCopy(e)} src={ copied ? Check : Copy} alt="Book image" width={30} height={30} />
+          <Image onClick={(e) => handleCopy(e)} src={ copied ? isDarkMode ? Chekc_dark : Check : isDarkMode ? Copy_dark : Copy} alt="Book image" width={30} height={30} />
         </div>
     </section>
   )

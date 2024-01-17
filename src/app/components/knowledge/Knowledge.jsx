@@ -5,6 +5,7 @@ import { useTheme } from '@/context/ThemeContext'
 import Image from 'next/image'
 
 import Book from "@/../public/book.svg"
+import Book_Dark from "@/../public/book_dark.svg"
 import ReactImg from "@/../public/react.png"
 import TailwindImg from "@/../public/tailwind.png"
 import ViteImg from "@/../public/vite.svg"
@@ -41,7 +42,7 @@ function Knowledge() {
     <section className={`${styles.knowledge} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
           <h2>{texts.title}</h2>
-          <Image src={Book} alt="Book image" width={30} height={30} />
+          <Image src={isDarkMode ? Book_Dark : Book} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.knowImgs}`}>
           <div>

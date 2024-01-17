@@ -7,6 +7,8 @@ import Image from 'next/image'
 import fotoPerfil from "@/../public/fotoPerfil.png"
 import downloadImg from "@/../public/download.svg"
 import dev from "@/../public/dev.svg"
+import downloadImg_dark from "@/../public/download_dark.svg"
+import dev_dark from "@/../public/dev_dark.svg"
 import styles from './presentation.module.scss'
 
 import textsFiles from "./texts.json"
@@ -30,8 +32,8 @@ function Presentation() {
           <h1 className={`${styles.name}`}>Gustavo Keymetlian</h1>
           <p className={`${styles.description}`}>{texts.description}</p>
           <div className={`${styles.flex}`}>
-          <Image src={dev} width={35} height={35} alt="download image"/>
-          <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={downloadImg} width={15} height={15} alt="download image"/></a>
+          <Image src={isDarkMode ? dev_dark : dev} width={35} height={35} className="svg" alt="download image"/>
+          <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={isDarkMode ? downloadImg_dark : downloadImg} width={15} height={15} alt="download image"/></a>
           </div>
         </div>
       </div>

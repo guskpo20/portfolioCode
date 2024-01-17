@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 
 import list from "@/../public/list.svg"
+import list_dark from "@/../public/list_dark.svg"
 import TaskManagerImg from "@/../public/taskManager.png"
 import BudgetManager from "@/../public/budgetManager.jpg"
 import Administrator from "@/../public/administrator.png"
@@ -15,6 +16,7 @@ import ReactImg from "@/../public/react.png"
 import TailwindImg from "@/../public/tailwind.png"
 import ViteImg from "@/../public/vite.svg"
 import LinkImg from "@/../public/link.svg"
+import LinkImg_dark from "@/../public/link_dark.svg"
 import CSharpImg from "@/../public/cSharp.png"
 import UnityImg from "@/../public/unity.png"
 
@@ -39,7 +41,7 @@ function Projects() {
     <section className={`${styles.projects} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
-            <Image src={list} alt="list image" width={30} height={30} />
+            <Image src={isDarkMode ? list_dark : list} alt="list image" width={30} height={30} />
         </div>
         <div className={`${styles.project}`}>
           <div className={`${styles.imgContainer}`}>
@@ -54,8 +56,8 @@ function Projects() {
             <Image src={ViteImg} width={30} height={30} alt="Vite Logo" />
             </div>
             <div className={`${styles.buttons}`}>
-              <Link className={`${styles.button}`} target='_blank' href="https://github.com/guskpo20/react-to-do-list" >Code <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
-              <Link className={`${styles.button}`} href="https://helpful-kheer-2d9093.netlify.app" target='_blank' >Live <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} target='_blank' href="https://github.com/guskpo20/react-to-do-list" >Code <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} href="https://helpful-kheer-2d9093.netlify.app" target='_blank' >Live <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
             </div>
           </div>
         </div>
@@ -73,8 +75,8 @@ function Projects() {
             <Image src={ViteImg} width={30} height={30} alt="Vite Logo" />
             </div>
             <div className={`${styles.buttons}`}>
-              <Link className={`${styles.button}`} target='_blank' href="https://github.com/guskpo20/budget-manager" >Code <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
-              <Link className={`${styles.button}`} href="https://steady-cocada-60026f.netlify.app" target='_blank' >Live <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} target='_blank' href="https://github.com/guskpo20/budget-manager" >Code <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} href="https://steady-cocada-60026f.netlify.app" target='_blank' >Live <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
             </div>
           </div>
         </div>
@@ -92,8 +94,8 @@ function Projects() {
             <Image src={ViteImg} width={30} height={30} alt="Vite Logo" />
             </div>
             <div className={`${styles.buttons}`}>
-              <Link className={`${styles.button}`} target='_blank' href="https://github.com/guskpo20/administrador-react" >Code <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
-              <Link className={`${styles.button}`} href="https://animated-quokka-9d24f3.netlify.app" target='_blank' >Live <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} target='_blank' href="https://github.com/guskpo20/administrador-react" >Code <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} href="https://animated-quokka-9d24f3.netlify.app" target='_blank' >Live <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@ function Projects() {
             <Image src={UnityImg} width={30} height={30} alt="Tailwind Logo" />
             </div>
             <div className={`${styles.buttons}`}>
-              <Link className={`${styles.button}`} href="https://kustaa-uy.itch.io/el-saltos" target='_blank' >Live <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} href="https://kustaa-uy.itch.io/el-saltos" target='_blank' >Live <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
             </div>
           </div>
         </div>
@@ -127,7 +129,7 @@ function Projects() {
             <Image src={UnityImg} width={30} height={30} alt="Tailwind Logo" />
             </div>
             <div className={`${styles.buttons}`}>
-              <Link className={`${styles.button}`} href="https://kustaa-uy.itch.io/pincha-el-circulo" target='_blank' >Live <Image src={LinkImg} width={20} height={20} alt="Link image" /></Link>
+              <Link className={`${styles.button}`} href="https://kustaa-uy.itch.io/pincha-el-circulo" target='_blank' >Live <Image src={ isDarkMode ? LinkImg_dark : LinkImg} width={20} height={20} alt="Link image" /></Link>
             </div>
           </div>
         </div>
