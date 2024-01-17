@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import Presentation from "./components/presentation/Presentation"
 import Experience from "./components/experience/Experience"
 import Projects from "./components/projects/Projects"
@@ -13,6 +13,7 @@ import { SunIcon, MoonIcon } from '@heroicons/react/20/solid'
 function Home() {
 
   const { isDarkMode, toggleTheme} = useTheme();
+  
 
   return (
     <div className='father'>
