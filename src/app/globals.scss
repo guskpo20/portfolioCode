@@ -24,6 +24,7 @@ html{
     background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
     background-size: 180% 180%;
     animation: gradient-animation 6s ease infinite;
+    overflow-x: hidden;
 }
 
 @keyframes gradient-animation {
@@ -92,4 +93,18 @@ body {
     width: 1.75rem;
     color: white;
   }
+}
+
+
+.offScreen{
+  transform: translateX(400%);
+  transition: transform 1s ease;
+
+  &.show{
+    transform: translateX(0) !important;
+  }
+}
+
+.offScreen:nth-of-type(even){
+  transform: translateX(-400%);
 }

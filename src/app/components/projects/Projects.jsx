@@ -36,7 +36,7 @@ function Projects() {
     }, [userLang])
 
   return (
-    <section className={`${styles.projects} ${isDarkMode ? styles.dark : styles.light}`}>
+    <section className={`${styles.projects} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
             <Image src={list} alt="list image" width={30} height={30} />

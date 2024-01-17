@@ -40,7 +40,7 @@ function Social() {
     }
 
   return (
-    <section className={`${styles.social} ${isDarkMode ? styles.dark : styles.light}`}>
+    <section className={`${styles.social} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
             <Image src={At} alt="Book image" width={30} height={30} />

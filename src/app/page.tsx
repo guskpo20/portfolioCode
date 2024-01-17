@@ -13,7 +13,33 @@ import { SunIcon, MoonIcon } from '@heroicons/react/20/solid'
 function Home() {
 
   const { isDarkMode, toggleTheme} = useTheme();
+
   
+  const checkBoxes = () => {
+    let content = document.querySelectorAll(".offScreen")
+    const triggerBottom = window.innerHeight / 5 * 4;
+
+    content.forEach(box => {
+      const boxTop = box.getBoundingClientRect().top;
+
+      if(boxTop <= triggerBottom){
+        box.classList.add("show")
+      }else{
+        box.classList.remove("show")
+      }
+    })
+  }
+
+  useEffect(() => {
+    checkBoxes();
+    // Agregar event listener al montar el componente
+    window.addEventListener('scroll', checkBoxes);
+
+    // Quitar event listener al desmontar el componente
+    return () => {
+      window.removeEventListener('scroll', checkBoxes);
+    };
+  }, []);
 
   return (
     <div className='father'>
