@@ -32,10 +32,14 @@ function Home() {
 
   useEffect(() => {
     checkBoxes();
-    // Agregar event listener al montar el componente
+  }, [isDarkMode])
+
+  useEffect(() => {
+    checkBoxes();
+    
     window.addEventListener('scroll', checkBoxes);
 
-    // Quitar event listener al desmontar el componente
+    
     return () => {
       window.removeEventListener('scroll', checkBoxes);
     };
