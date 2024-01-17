@@ -95,16 +95,19 @@ body {
   }
 }
 
-
-.offScreen{
-  transform: translateX(400%);
-  transition: transform 1s ease;
-
-  &.show{
-    transform: translateX(0) !important;
+/* @media (min-width: 1440px) {
+  .offScreen{
+    transform: translateX(400%);
+    transition: transform 1s ease;
+  
+    &.show{
+      transform: translateX(0) !important;
+    }
   }
-}
+  
+  .offScreen:nth-of-type(even){
+    transform: translateX(-400%);
+  }
+} */
 
-.offScreen:nth-of-type(even){
-  transform: translateX(-400%);
-}
+
