@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   authors: [{name:"Gustavo Keymetlian"}],
   keywords: "Next, Development, freelance, web, email, Desarrollo, trabajo, pagina web",
   icons: ["https://raw.githubusercontent.com/guskpo20/portfolioImages/main/android-chrome-192x192.png", "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/android-chrome-512x512.png", "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/apple-touch-icon.png", "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/favicon-16x16.png", "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/favicon-32x32.png", "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/favicon.ico", "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/mstile-150x150.png"],
-  manifest: "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/site.webmanifest",
+  /* manifest: "https://raw.githubusercontent.com/guskpo20/portfolioImages/main/site.webmanifest", */
   openGraph: {
     type: "website",
     url: "https://portfolio-gules-eta-49.vercel.app",

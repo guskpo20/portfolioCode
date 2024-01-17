@@ -65,9 +65,13 @@ body {
       }
     }
 
-    h2{
+    h2, li::marker{
       color: #59bffa;
     }
+  }
+
+  li::marker{
+    color: #7525e2;
   }
 
   border-radius: 30px;
