@@ -24,7 +24,7 @@ function Experience() {
     <section className={`${styles.experiences} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
-            <Image src={isDarkMode ? work_dark : work} alt="work image" width={30} height={30} />
+            <Image src={isDarkMode ? work : work_dark} alt="work image" width={30} height={30} />
         </div>
         <div className={`${styles.experience}`}>
             <p>{texts.jobs[0].job}</p>

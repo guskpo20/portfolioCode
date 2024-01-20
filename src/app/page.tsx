@@ -39,7 +39,6 @@ function Home() {
     
     window.addEventListener('scroll', checkBoxes);
 
-    
     return () => {
       window.removeEventListener('scroll', checkBoxes);
     };

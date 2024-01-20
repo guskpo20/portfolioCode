@@ -4,24 +4,19 @@
 
     margin-top: 10px;
 
-    color: $text-color-light;
+    color: $text-color-dark;
 
     @media (max-width: 733px) {
         padding: 0 20px;
     }
 
     &.dark{
-        color: $text-color-dark;
-        
+        color: $text-color-light;
         .separator{
-            border-bottom: 1px solid $text-color-dark !important;
+            border-bottom: 1px solid $text-color-light !important;
         }
     }
-
-    h2{
-        color: $highlight-color;
-    }
-
+    
     .flex{
         display: flex;
         align-items: center;
@@ -33,7 +28,7 @@
     }
 
     .separator{
-        border-bottom: 1px solid $text-color-light;
+        border-bottom: 1px solid $text-color-dark;
         margin-bottom: 20px;
     }
     

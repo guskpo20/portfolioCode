@@ -42,7 +42,7 @@ function Knowledge() {
     <section className={`${styles.knowledge} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
           <h2>{texts.title}</h2>
-          <Image src={isDarkMode ? Book_Dark : Book} alt="Book image" width={30} height={30} />
+          <Image src={isDarkMode ? Book : Book_Dark} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.knowImgs}`}>
           <div>

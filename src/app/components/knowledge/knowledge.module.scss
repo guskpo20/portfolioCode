@@ -4,18 +4,14 @@
     
     margin-top: 30px;
 
-    color: $text-color-light;
+    color: $text-color-dark;
 
     @media (max-width: 733px) {
         padding: 0 20px;
     }
 
     &.dark{
-        color: $text-color-dark;
-    }
-
-    h2{
-        color: $highlight-color;
+        color: $text-color-light;
     }
 
     .flex{
@@ -33,7 +29,6 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
-
         div{
             min-width: 50px;
             img{

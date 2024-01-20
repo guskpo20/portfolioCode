@@ -32,8 +32,8 @@ function Presentation() {
           <h1 className={`${styles.name}`}>Gustavo Keymetlian</h1>
           <p className={`${styles.description}`}>{texts.description}</p>
           <div className={`${styles.flex}`}>
-          <Image src={isDarkMode ? dev_dark : dev} width={35} height={35} className="svg" alt="download image"/>
-          <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={isDarkMode ? downloadImg_dark : downloadImg} width={15} height={15} alt="download image"/></a>
+          <Image src={isDarkMode ? dev : dev_dark} width={35} height={35} className="svg" alt="download image"/>
+          <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={isDarkMode ? downloadImg : downloadImg_dark} width={15} height={15} alt="download image"/></a>
           </div>
         </div>
       </div>

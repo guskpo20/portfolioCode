@@ -1,22 +1,18 @@
 @import "abstracts/colors";
 
-/* :root {
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  background:$bg-light ;
-  &.dark{
-    background-color: $bg-dark;
-  }
 }
- */
-/* @media (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}
 
 html{
     width: 100%;
@@ -45,88 +41,86 @@ body {
   max-width: 748px;
   margin: 10px auto;
   padding: 10px 10px;
-  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.301);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-
+  border-radius: 30px;
+  
   &.dark{
-    background: rgba(0, 0, 0, 0.301);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.726);
 
     .toggleButon{
-      background-color:#59bffa;
+      background-color: $highlight-color;
       &:hover{
-        background-color: #237bad;
+        background-color: #8b50df;
       }
     }
 
     h2, li::marker{
-      color: #59bffa;
+      color: #7525e2;
     }
   }
 
-  li::marker{
-    color: #7525e2;
+  h2, li::marker{
+    color: #59bffa;
   }
 
-  border-radius: 30px;
+  .toggleButon{
+    position: absolute;
+    right:0;
+    border-radius: 999px;
+    
+    padding: 0.75rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    cursor: pointer;
+  
+    @media (max-width: 740px) {
+      right: 10px !important;
+    }
+  
+    background-color:#59bffa;
+    &:hover{
+      background-color: #237bad;
+    }
+    
+  
+    .icon{
+      height: 1.75rem;
+      width: 1.75rem;
+      color: white;
+    }
+  }
+
 
   .father{
     margin-top: 10px;
     position: relative;
-  }
-}
-
-.toggleButon{
-  position: absolute;
-  right:0;
-  border-radius: 999px;
-  background-color: $highlight-color;
-  padding: 0.75rem;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  cursor: pointer;
-
-  @media (max-width: 740px) {
-    right: 10px !important;
-  }
-
-  &:hover{
-    background-color: #8b50df;
-  }
-
-  .icon{
-    height: 1.75rem;
-    width: 1.75rem;
-    color: white;
-  }
-}
-
-@media (min-width: 1440px) {
-  .offScreen{
-    transform: translateX(400%);
-    transition: transform 1s ease;
-  
-    &.show{
-      transform: translateX(0) !important;
+    overflow-x: hidden;
+    @media (min-width: 1440px) {
+      .offScreen{
+        transform: translateX(100%);
+        transition: transform 1s ease;
+      
+        &.show{
+          transform: translateX(0) !important;
+        }
+      }
+      
+      .offScreen:nth-of-type(even){
+        transform: translateX(-100%);
+      }
     }
   }
-  
-  .offScreen:nth-of-type(even){
-    transform: translateX(-400%);
-  }
 }
 
-.svg{
-  color: #f7137e !important;
-}
+
+
+
 
 

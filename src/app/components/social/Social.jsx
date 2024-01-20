@@ -47,7 +47,7 @@ function Social() {
     <section className={`${styles.social} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
-            <Image src={isDarkMode ? At_dark : At} alt="Book image" width={30} height={30} />
+            <Image src={isDarkMode ? At : At_dark} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.socials}`}>
             <Link target='_blank' href="https://www.linkedin.com/in/gustavo-keymetlian/" className={`${styles.socialButton}`}>
@@ -69,11 +69,11 @@ function Social() {
         </div>
         <div className={`${styles.flex} ${styles.email}`}>
             <h2>Email</h2>
-            <Image src={isDarkMode ? Email_dark : Email} alt="Book image" width={30} height={30} />
+            <Image src={isDarkMode ? Email : Email_dark} alt="Book image" width={30} height={30} />
         </div>
         <div className={`${styles.flex} ${styles.sendEmail}`}>
           <Link className={`${styles.sendEmail_Link}`} href="mailto: gustavo.keymetlian@outlook.com">gustavo.keymetlian@outlook.com</Link>
-          <Image onClick={(e) => handleCopy(e)} src={ copied ? isDarkMode ? Chekc_dark : Check : isDarkMode ? Copy_dark : Copy} alt="Book image" width={30} height={30} />
+          <Image onClick={(e) => handleCopy(e)} src={ copied ? isDarkMode ? Chekc_dark : Check : isDarkMode ? Copy : Copy_dark} alt="Book image" width={30} height={30} />
         </div>
     </section>
   )
