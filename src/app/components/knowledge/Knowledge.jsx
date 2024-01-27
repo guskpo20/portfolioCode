@@ -14,7 +14,6 @@ import CSharpImg from "@/../public/cSharp.png"
 import UnityImg from "@/../public/unity.png"
 import VueImg from "@/../public/vue.png"
 import NextImg from "@/../public/next.png"
-import SalesforceImg from "@/../public/salesforce.png"
 import VeevaImg from "@/../public/veeva.png"
 import HtmlImg from "@/../public/html.png"
 import CssImg from "@/../public/css.png"
@@ -80,9 +79,6 @@ function Knowledge() {
           </div>
           <div>
             <Image src={NextImg} alt="React image" width={50} height={50} />
-          </div>
-          <div>
-            <Image src={SalesforceImg} alt="React image" width={50} height={50} />
           </div>
           <div>
             <Image src={VeevaImg} alt="React image" width={50} height={50} />
