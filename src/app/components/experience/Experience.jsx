@@ -21,7 +21,7 @@ function Experience() {
     }, [userLang])
 
   return (
-    <section className={`${styles.experiences} ${isDarkMode ? styles.dark : styles.light} offScreen`}>
+    <section className={`${styles.experiences} ${isDarkMode ? styles.dark : styles.light}`}>
         <div className={`${styles.flex}`}>
             <h2>{texts.title}</h2>
             <Image src={isDarkMode ? work : work_dark} alt="work image" width={30} height={30} />
