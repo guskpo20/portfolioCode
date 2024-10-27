@@ -61,6 +61,20 @@ body {
     h2, li::marker{
       color: #7525e2;
     }
+
+    .blog_button{
+      border: 1px solid $highlight-color !important;
+      color: $highlight-color !important;
+
+      &:hover{
+        cursor: pointer;
+        background-color: $highlight-color !important;
+      }
+    }
+
+    .divider{
+      background-color: black !important;
+    }
   }
 
   h2, li::marker{
@@ -115,6 +129,33 @@ body {
       .offScreen:nth-of-type(even){
         transform: translateX(-100%);
       }
+    }
+
+    .blog_button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 20px;
+      color: #59bffa;
+      border: 1px solid #59bffa;
+      width: 150px;
+      height: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: transparent;
+      &:hover{
+        cursor: pointer;
+        background-color: #59bffa;
+        color: white;
+      }
+    }
+
+    .divider{
+      margin-top: 20px;
+      height: 1px;
+      color: black ;
+      background-color: white ;
     }
   }
 }

@@ -35,9 +35,6 @@ function Experience() {
                 <li>{texts.jobs[0].description[2]}</li>
             </ul>
         </div>
-        <div className={`${styles.separator}`}>
-
-        </div>
         <div className={`${styles.experience}`}>
             <p>{texts.jobs[1].job}</p>
             <span className={`${styles.greyText}`}>{texts.jobs[1].dates}</span>

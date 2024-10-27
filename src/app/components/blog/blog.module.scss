@@ -1,0 +1,95 @@
+@import "../../abstracts/colors";
+
+.dark{
+    color: $text-color-light;
+    &.blog{
+        .tagsSection__tags{
+
+            .tag{
+                &.active{
+                    background-color: $highlight-color !important;
+                    color: white !important;
+                }
+    
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .tag{
+            color: $highlight-color !important;
+            outline: 1px solid $highlight-color !important;
+        }
+    }
+    
+}
+
+.blog{
+    min-height: 100vh;
+    padding: 0 1px;
+
+    .tagsSection{
+
+        &__tags{
+            display: flex;
+            
+            gap: 10px;
+            align-items: center;
+
+            .tag{
+                &.active{
+                    background-color: #59bffa;
+                    outline: none;
+                }
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    .tag{
+        padding: 10px;
+        border-radius: 20px;
+        outline: 1px solid white;
+        width: max-content;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .postsSection{
+        .posts{
+            .postContainer{
+                padding-bottom: 20px;
+                border-bottom: white 1px solid;
+
+                .post{
+                    margin-top: 10px;
+                    h3{
+                        font-size: 1.7rem;
+                        margin: 10px 0;
+                    }
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    .day{
+                        margin: 0;
+                        font-size: 80%;
+                        color: rgba(255, 255, 255, 0.582)
+                    }
+                    p{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .tag{
+            font-size: 70%;
+        }
+    }
+}
