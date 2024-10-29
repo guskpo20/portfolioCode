@@ -8,19 +8,12 @@ import styles from './blog.module.scss';
 const postNoSelected = "NoPost";
 const posts = [
     {
-        fileName: "postPrueba.md",
-        tags: ["prueba"],
-        title: "Título Prueba",
+        fileName: "introduccion.md",
+        tags: ["introduccion"],
+        title: "Introduccion",
         date: "01-01-2024",
-        content: "Contenido de la prueba"
-    },
-    {
-        fileName: "postPrueba.md",
-        tags: ["otro"],
-        title: "Título Prueba",
-        date: "01-02-2025",
-        content: "Contenido de la prueba"
-    }
+        content: "Una breve explicación del porque de este blog"
+    }    
 ];
 
 function Blog() {
@@ -50,7 +43,7 @@ function Blog() {
             
             {postSelected !== postNoSelected && (
                 <>
-                    <button className="blog_button" onClick={() => setPostSelected(postNoSelected)}>Volver a Blog</button>
+                    <button className="button" onClick={() => setPostSelected(postNoSelected)}>Volver a Blog</button>
                     <Post filename={postSelected} />
                 </>
             )}
@@ -58,7 +51,8 @@ function Blog() {
             {postSelected === postNoSelected && (
                 <>
                     <h2>Blog</h2>
-                    <p>Aquí podrás encontrar las últimas noticias sobre mi trabajo, desarrollo y hobbie.</p>
+                    <p>En esta seccion cuento lo que creo que puede ayudar a otros en base a mi experiencia o lo que necesito contar.</p>
+                    <button className="button frases_button" onClick={() => setPostSelected("frases.md")}>Frases que me gustaron</button>
                     {tags.length > 0 && (
                         <div className={styles.tagsSection}>
                             <h2>Tags:</h2>
@@ -75,12 +69,12 @@ function Blog() {
                         <h2>Posts:</h2>
                         <div className={styles.posts}>
                             {filteredPosts.map(post => (
+                                <>
                                 <div className={styles.postContainer} key={post.fileName}>
                                     <div className={styles.post} onClick={() => setPostSelected(post.fileName)}>
                                         <p className={styles.day}>{post.date}</p>
                                         <h3>{post.title}</h3>
                                         <p>{post.content}</p>
-                                        
                                     </div>
                                     <div className={styles.tags}>
                                         {post.tags.map(tag => (
@@ -88,6 +82,8 @@ function Blog() {
                                         ))}
                                     </div>
                                 </div>
+                                <div className="divider"></div>
+                                </>
                             ))}
                         </div>
                     </div>

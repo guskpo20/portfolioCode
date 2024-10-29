@@ -33,7 +33,7 @@ function Presentation() {
           <p className={`${styles.description}`}>{texts.description}</p>
           <div className={`${styles.flex}`}>
           <Image src={isDarkMode ? dev : dev_dark} width={35} height={35} className="svg" alt="download image"/>
-          <a className={`${styles.downloadSection} ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={isDarkMode ? downloadImg : downloadImg_dark} width={15} height={15} alt="download image"/></a>
+          <a className={`button reset-margin ${ userLang == "en" ? styles.english : "" }`} href={ userLang == "en" ? "/GustavoKeymetlianEnglish.pdf" : "/GustavoKeymetlian.pdf"} download>{texts.download}<Image src={isDarkMode ? downloadImg : downloadImg_dark} width={15} height={15} alt="download image"/></a>
           </div>
         </div>
       </div>

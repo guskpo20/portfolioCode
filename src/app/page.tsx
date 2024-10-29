@@ -13,6 +13,7 @@ import { SunIcon, MoonIcon } from '@heroicons/react/20/solid'
 
 function Home() {
 
+
   const { isDarkMode, toggleTheme} = useTheme();
   const [ blog, setBlog ] = useState(false)
   
@@ -29,13 +30,20 @@ function Home() {
         box.classList.remove("show")
       }
     })
-  }
+  }  
 
   useEffect(() => {
     checkBoxes();
   }, [isDarkMode])
 
   useEffect(() => {
+
+    const pathname = window.location.href;
+    console.log(pathname)
+
+    if (pathname.includes("blog")) {
+      setBlog(true);
+    }
     
     checkBoxes();
     
@@ -59,14 +67,14 @@ function Home() {
       
       {blog && (
         <>
-          <button className="blog_button" onClick={() => setBlog(!blog)}>Portfolio</button>
+          <button className="button" onClick={() => setBlog(!blog)}>Portfolio</button>
           <div className='divider'></div>
           <Blog />
         </>
       )}
       {!blog && (
         <>
-          <button className="blog_button" onClick={() => setBlog(true)}>Blog</button>
+          <button className="button" onClick={() => setBlog(true)}>Blog</button>
           <div className='divider'></div>
           <Experience />
           <Projects />

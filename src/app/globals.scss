@@ -17,13 +17,14 @@
 html{
     width: 100%;
     height: max-content;
-    background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+    /* background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e); */
+    background-color: #000000ed;
     background-size: 180% 180%;
-    animation: gradient-animation 6s ease infinite;
+    /* animation: gradient-animation 6s ease infinite; */
     overflow-x: hidden;
 }
 
-@keyframes gradient-animation {
+/* @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
@@ -33,7 +34,7 @@ html{
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -41,16 +42,16 @@ body {
   max-width: 748px;
   margin: 10px auto;
   padding: 10px 10px;
-  background: rgba(0, 0, 0, 0.301);
+ /*  background: rgba(0, 0, 0, 0.301);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
   border-radius: 30px;
   
   &.dark{
-    background: rgba(255, 255, 255, 0.726);
-
+    background: rgb(221, 220, 220);
+    color: black !important; 
     .toggleButon{
       background-color: $highlight-color;
       &:hover{
@@ -62,13 +63,14 @@ body {
       color: #7525e2;
     }
 
-    .blog_button{
+    .button, .frases_button{
       border: 1px solid $highlight-color !important;
       color: $highlight-color !important;
 
       &:hover{
         cursor: pointer;
         background-color: $highlight-color !important;
+        color: rgb(226, 222, 222) !important;
       }
     }
 
@@ -131,7 +133,7 @@ body {
       }
     }
 
-    .blog_button{
+    .button{
       display: flex;
       align-items: center;
       justify-content: center;
@@ -151,12 +153,31 @@ body {
       }
     }
 
+    .frases_button{
+      height: 50px;
+    }
+
     .divider{
       margin-top: 20px;
       height: 1px;
       color: black ;
       background-color: white ;
     }
+  }
+
+  .blog_date{
+    font-size: 80%;
+    opacity: .8;
+  }
+
+  pre{
+    background-color: rgba(34, 34, 34, 0.719);
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .reset-margin{
+    margin: 0 !important;
   }
 }
 

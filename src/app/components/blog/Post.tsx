@@ -45,7 +45,7 @@ export default function MarkdownFromFile({ filename }: MarkdownFromFileProps) {
   return (
     <div>
       {/* Muestra el título y la fecha */}
-      <p>{date}</p> {/* Renderiza la fecha aquí */}
+      <p className='blog_date'>{date}</p> {/* Renderiza la fecha aquí */}
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </div>
   );

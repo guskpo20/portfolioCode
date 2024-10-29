@@ -41,3 +41,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 https://portfolio-gules-eta-49.vercel.app
+
+
+Para ir directo al blog:
+https://portfolio-gules-eta-49.vercel.app/?blog

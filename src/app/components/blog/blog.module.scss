@@ -38,6 +38,7 @@
             align-items: center;
 
             .tag{
+                font-size: .75rem;
                 &.active{
                     background-color: #59bffa;
                     outline: none;
@@ -64,9 +65,6 @@
     .postsSection{
         .posts{
             .postContainer{
-                padding-bottom: 20px;
-                border-bottom: white 1px solid;
-
                 .post{
                     margin-top: 10px;
                     h3{
@@ -80,7 +78,7 @@
                     .day{
                         margin: 0;
                         font-size: 80%;
-                        color: rgba(255, 255, 255, 0.582)
+                        opacity: .8;
                     }
                     p{
                         margin-bottom: 10px;
