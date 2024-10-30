@@ -11,9 +11,16 @@ const posts = [
         fileName: "introduccion.md",
         tags: ["introduccion"],
         title: "Introduccion",
+        date: "28-10-2024",
+        content: "Una breve explicación del porque de este blog."
+    },   
+    {
+        fileName: "background.md",
+        tags: ["introduccion", "personal"],
+        title: "Mi pasado",
         date: "01-01-2024",
-        content: "Una breve explicación del porque de este blog"
-    }    
+        content: "Una miradita al Gustavo antes de ser FrontEnd developer en una empresa."
+    } 
 ];
 
 function Blog() {
@@ -68,7 +75,7 @@ function Blog() {
                     <div className={styles.postsSection}>
                         <h2>Posts:</h2>
                         <div className={styles.posts}>
-                            {filteredPosts.map(post => (
+                            {[...filteredPosts].reverse().map(post => (
                                 <>
                                 <div className={styles.postContainer} key={post.fileName}>
                                     <div className={styles.post} onClick={() => setPostSelected(post.fileName)}>

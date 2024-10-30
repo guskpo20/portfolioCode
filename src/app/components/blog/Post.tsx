@@ -9,7 +9,8 @@ interface MarkdownFromFileProps {
 
 export default function MarkdownFromFile({ filename }: MarkdownFromFileProps) {
   const [contentHtml, setContentHtml] = useState<string>('');
-  const [date, setDate] = useState<string>(''); // Estado para la fecha
+  const [date, setDate] = useState<string>('');
+  const [tags, setTags] = useState<string[]>([]);
 
   useEffect(() => {
     const fetchMarkdown = async () => {
@@ -37,6 +38,7 @@ export default function MarkdownFromFile({ filename }: MarkdownFromFileProps) {
 
     // Establece los metadatos en el estado
     setDate(data.date || 'Fecha no disponible'); // Asigna la fecha extraída
+    setTags(data.tags || [])
 
     // Establece el contenido HTML
     setContentHtml(contentHtml);
@@ -47,6 +49,16 @@ export default function MarkdownFromFile({ filename }: MarkdownFromFileProps) {
       {/* Muestra el título y la fecha */}
       <p className='blog_date'>{date}</p> {/* Renderiza la fecha aquí */}
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+      <div className='divider'></div>
+      <div className='post_tags'>
+        {tags && tags.length > 0 && 
+          tags.map((tag, index) => (
+            <>
+              <p key={index}>{tag}</p><p>/</p>
+            </>
+          ))
+        }
+      </div>
     </div>
   );
 }

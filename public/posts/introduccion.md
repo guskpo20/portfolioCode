@@ -6,7 +6,7 @@ tags: ["introduccion"]
 
 # Bienvenidos!
 
-Mi nombre es **Gustavo** y quiero contar un poco la idea de este blog. Quiero aclarar que **ni de lejos** soy la persona que mas sabe en el mundo, ni la mas experimentada; este blog es sobre mis experiencias y lo que creo que me ha funcionado.
+Mi nombre es **Gustavo** y quiero contar un poco la idea de este blog. Quiero aclarar que _**ni de lejos**_ soy la persona que mas sabe en el mundo, ni la mas experimentada; este blog es sobre mis experiencias y lo que creo que me ha funcionado.
 
 ## Porque un blog?
 
@@ -16,4 +16,8 @@ Otro motivo igual de importante, es la posibilidad de demostrar habilidades tecn
 
 ## Que vas a encontrar
 
-Tengo pensado hablar sobre 3 o 4 cosas de mi vida, por lo que estos posts van a tratar sobre experiencias **trabajo/personal**, **temas tecnicos sobre desarrollo** (front, back, emails, juegos, etc...), mi paso por el **deporte** y mi nueva travesia que aun estoy empezando y **hobbies/entretenimiento** que recomiende.
+Tengo pensado hablar sobre 3 o 4 cosas de mi vida, por lo que estos posts van a tratar sobre:
+- experiencias **trabajo/personal**
+- **temas tecnicos sobre desarrollo** (front, back, emails, juegos, etc...)
+- mi paso por el **deporte** y mi nueva travesia que aun estoy empezando
+- **hobbies/entretenimiento** que recomiende
