@@ -1,0 +1,119 @@
+[
+    {
+        "element": "h1",
+        "content": "Brandon Sanderson"
+    },
+    {
+        "element": "image",
+        "content": "brandon.jpg",
+        "class": "full-width"
+    },
+    {
+        "element": "frase",
+        "content": "El paso más importante que puede dar un hombre. No es el primero, ¿verdad? Es el siguiente. Siempre el siguiente paso, Dalinar."
+    },
+    {
+        "element": "frase",
+        "content": "A veces, un hipócrita no es más que un hombre en proceso de cambio."
+    },
+    {
+        "element": "frase",
+        "content": "Los libros pueden almacenar información, lo que no pueden hacer es interpretarla. Si no vas a sacar conclusiones, es mejor que dejes la información en los textos."
+    },
+    {
+        "element": "frase",
+        "content": "Carecer de sentimiento es estar muerto, pero actuar según cada sentimiento es ser un niño."
+    },
+    {
+        "element": "frase",
+        "content": "Deberías intentar no hablar tanto, amigo. Sonarás mucho menos estúpido de esa manera."
+    },
+    {
+        "element": "frase",
+        "content": "De alguna manera lo encontraremos. El equilibrio entre quiénes queremos ser y quiénes necesitamos ser. Pero por ahora, simplemente tenemos que estar satisfechos con quienes somos."
+    },
+    {
+        "element": "frase",
+        "content": "Acepta el dolor, pero no aceptes que te lo merecías."
+    },
+    {
+        "element": "frase",
+        "content": "Los buenos hombres no se convierten en leyendas, dijo en voz baja.<br>Los buenos hombres no necesitan convertirse en leyendas. Ella abrió los ojos y lo miró. 'Simplemente hacen lo correcto.'"
+    },
+    {
+        "element": "frase",
+        "content": "Es preferible la ignorancia inconsciente a la estupidez informada."
+    },
+    {
+        "element": "frase",
+        "content": "Seguimos los códigos no porque generen ganancias, sino porque odiamos a las personas en las que de otro modo nos convertiríamos."
+    },
+    {
+        "element": "frase",
+        "content": "Sí, comencé mi viaje solo y lo terminé solo. Pero eso no significa que caminé solo."
+    },
+    {
+        "element": "frase",
+        "content": "El respeto es como el abono. Lo pones en las plantas y ayuda a que crezcan. Pon demasiado y apestará."
+    },
+    {
+        "element": "h1",
+        "content": "Lol"
+    },
+    {
+        "element": "image",
+        "content": "lol.png",
+        "class": "full-width"
+    },
+    {
+        "element": "frase",
+        "content": "Corre como un caracol y nunca te torceras los tobillos."
+    },
+    {
+        "element": "h1",
+        "content": "Random"
+    },
+    {
+        "element": "image",
+        "content": "random.png",
+        "class": "full-width"
+    },
+    {
+        "element": "frase",
+        "content": "if you enjoy the time you wasted you didn't waste any time."
+    },
+    {
+        "element": "h1",
+        "content": "Santiago Chalar - Consejo a los Hijos Varones"
+    },
+    {
+        "element": "image",
+        "content": "chalar.jpeg",
+        "class": "full-width"
+    },
+    {
+        "element": "frase",
+        "content": "El que no sabe que ignora, es 2 veces ignorante."
+    },
+    {
+        "element": "frase",
+        "content": "No abandonen muy temprano el rancho donde han nacido, y aunque se crean precavidos, traten primero: emplumar, que tarda más en volar el pichón que cae del nido."
+    },
+    {
+        "element": "frase",
+        "content": "Mas solo con estudiar no se va al triunfo derecho, entuavía queda un repecho regular por recorrer, pues la escencia del saber es sacarle buen provecho."
+    },
+    {
+        "element": "frase",
+        "content": "Y si algo cierto no sabe es conveniente callarse se salvará de mezclarse en cuestión que esté enredada pues con la boca cerrada no hay peligro de atorarse."
+    },
+    {
+        "element": "frase",
+        "content": "Con justicia y seriedad se marca una senda cierta, y en ella ha de hallar abierta, de la vida, la tranquera y podrá entrar ande quiera con la cara descubierta."
+    },
+    {
+        "element": "frase",
+        "content": "Pa'entropillar desventuras hay lugares muy propicios, se encuentran los malos vicios sin empeñarse en buscarlos, solo dispués pa'dejarlos es que cuestan sacrificio."
+    }
+    
+]

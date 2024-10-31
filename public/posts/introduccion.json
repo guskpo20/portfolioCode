@@ -1,0 +1,30 @@
+[
+    {
+        "element": "h1",
+        "content": "Bienvenidos!"
+    },
+    {
+        "element": "p",
+        "content": "Mi nombre es <b>Gustavo</b> y quiero contar un poco la idea de este blog. Quiero aclarar que <i><b>ni de lejos</b></i> soy la persona que mas sabe en el mundo, ni la mas experimentada; este blog es sobre mis experiencias y lo que creo que me ha funcionado."
+    },
+    {
+        "element": "h2",
+        "content": "Porque un blog?"
+    },
+    {
+        "element": "p",
+        "content": "Siempre me gustó ver gente contar sobre lo que piensa o ha vivido, ya sea en blogs o en videos. Por ahora soy un poco timido y tengo poco tiempo libre entonces hacer videos no es una opcion. Sin embargo, escribir un post cada tanto puedo.<br> Otro motivo igual de importante, es la posibilidad de demostrar habilidades tecnicas en mi portfolio pudiendo hacer post con tips y conocimientos tecnicos que he ido adquiriendo. Sin contar que hacer un blog ya puede ser un proyecto que mostrar en un portofolio."
+    },
+    {
+        "element": "h2",
+        "content": "Que vas a encontrar"
+    },
+    {
+        "element": "p",
+        "content": "Tengo pensado hablar sobre 3 o 4 cosas de mi vida, por lo que estos posts van a tratar sobre:"
+    },
+    {
+        "element": "list",
+        "items":["experiencias <b>trabajo/personal</b>", "<b>temas tecnicos sobre desarrollo</b> (front, back, emails, juegos, etc...)", "mi paso por el <b>deporte</b> y mi nueva travesia que aun estoy empezando", "<b>hobbies/entretenimiento</b> que recomiende"]
+    }
+]

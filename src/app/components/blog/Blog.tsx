@@ -8,14 +8,14 @@ import styles from './blog.module.scss';
 const postNoSelected = "NoPost";
 const posts = [
     {
-        fileName: "introduccion.md",
+        fileName: "introduccion.json",
         tags: ["introduccion"],
         title: "Introduccion",
         date: "28-10-2024",
         content: "Una breve explicación del porque de este blog."
-    },   
+    },
     {
-        fileName: "background.md",
+        fileName: "background.json",
         tags: ["introduccion", "personal"],
         title: "Mi pasado",
         date: "01-01-2024",
@@ -59,7 +59,7 @@ function Blog() {
                 <>
                     <h2>Blog</h2>
                     <p>En esta seccion cuento lo que creo que puede ayudar a otros en base a mi experiencia o lo que necesito contar.</p>
-                    <button className="button frases_button" onClick={() => setPostSelected("frases.md")}>Frases que me gustaron</button>
+                    <button className="button frases_button" onClick={() => setPostSelected("frases.json")}>Frases que me gustaron</button>
                     {tags.length > 0 && (
                         <div className={styles.tagsSection}>
                             <h2>Tags:</h2>

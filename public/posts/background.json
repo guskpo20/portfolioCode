@@ -1,0 +1,74 @@
+[
+    {
+        "element": "h1",
+        "content": "Breve introduccion antes de Jovenes a programar"
+    },
+    {
+        "element": "h3",
+        "content": "Inicios"
+    },
+    {
+        "element": "p",
+        "content": "Mi nombre es <b>Gustavo</b> y desde que era un niño me gusta jugar en la computadora. De ahi nace mi gusto por la programacion. <br> Mientras jugaba me preguntaba como haria el juego para entender los botones que yo apretaba y como se traducia en el movimiento de mi personaje. Al llegar a la adolescencia empecé a indagar en la programacion, y mas adelante descubrí que en youtube lo enseñaban gratis. <br> Asi que si, en lo que respecta a la programacion soy autodidacta (de grande hice algun curso pero la mayoria de lo que enseñaban ya lo sabia)."
+    },
+    {
+        "element": "h3",
+        "content": "Yo"
+    },
+    {
+        "element": "p",
+        "content": "Soy una persona a la que le gusta empezar cosas nuevas y no tiene miedo a dejar las cosas que ya no le llaman la atención. Aunque si algo me gusta voy a meterle a eso siempre."
+    },
+    {
+        "element": "h3",
+        "content": "Freelance"
+    },
+    {
+        "element": "p",
+        "content": "Hasta aca (antes de jovenes a programar) no me habia ni planteado mandar curriculums para programacion, habia probado un poco ser freelance pero, entre la plataforma que premia a los freelancer que ya han trabajado y un Gustavo que aun era nuevo en todo esto de las habilidades blandas, no conseguí trabajos. Eso si, si alguien se esta planteando esta opcion, les recomiendo crear su cuenta y crearse varias secundarias con las cuales le van a comprar proyectos a la primaria, dejense buenas reviews y puntaje, asi la plataforma los empieza a compartir."
+    },
+    {
+        "element": "h2",
+        "content": "Conocimientos Academicos"
+    },
+    {
+        "element": "list",
+        "items":["6to año de liceo (secundaria terminada) orientacion Cientifica.", "Nivel de ingles P.E.T (academia dickens), hoy en dia creo que estoy en B1 (segun alguna prueba)", "Probé la facultad de ingenieria pero no me convenció. Aunque no estoy cerrado a volver a intentarlo, no se si haria una ingenieria, quizas una tecnicatura sea lo mejor para mia. Me interesa mucho el desarrollo de videojuegos asi que creo que es por ahi.", "Cursos de programación en Udemy"]
+    },
+    {
+        "element": "h2",
+        "content": "Experiencias laborales"
+    },
+    {
+        "element": "list",
+        "items":["Desarrollé un sistema para mandar mensajes automaticos a un grupo grande de numeros en wpp para un restaurante (freelance para un amigo)"],
+        "sublist": ["Perdí un poco la timidez al intentar vender un producto.", "Aprendí como manejar mejor mi tiempo, porque yo era pm y programador a la vez."]
+    },
+    {
+        "element": "list",
+        "items":["Probé la escuela de oficiales de la armada nacional (estuve dos semanas, no me convenció y me fui)"],
+        "sublist": ["Gané confianza, me di cuenta que si me proponia algo lo podia conseguir. Fue el momento en el que estuve mejor de salud, ya que entrar a la escuela requeria pasar pruebas fisicas para las que me preparé muy bien."]
+    },
+    {
+        "element": "list",
+        "items":["Deposito de bebidas en un baile"]
+    },
+    {
+        "element": "list",
+        "items":["Encargado de deposito en una rotiseria"],
+        "sublist": ["Estas dos experiencias las agrupo ya que fueron las dos medias similares. En un entorno donde es esencial manejar inventarios y coordinar tareas mejoré mucho mi orden y organización."]
+    },
+    {
+        "element": "list",
+        "items":["Referi de rugby femenino e infantil"],
+        "sublist": ["Siendo juez practiqué mucho la toma de desiciones y la confianza (si tengo que cobrar algo, lo cobro, no me dejo llevar por la tribuna u otros jugadores)","El manejo del estres y aceptar las criticas (aunque hagas el mejor partido de tu vida uno de los dos equipos no va a estar contento con el resultado y van a decirte cosas)"]
+    },
+    {
+        "element": "h2",
+        "content": "Freelance"
+    },
+    {
+        "element": "p",
+        "content": "Creo que mi variada experiencia de trabajos y contacto con todas las edades (tuve la oportunidad de trabajar con gente grande como con gente joven, y en alguna ocasion (escuela naval) mis superiores eran menores que yo) me ayudó muchisimo a ser el Gustavo que soy hoy en dia. Aunque aun soy timido y tengo cosas en las que mejorar, creo que siempre puedo aportar cosas al grupo que sea."
+    }
+]

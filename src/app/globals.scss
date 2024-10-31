@@ -18,7 +18,7 @@ html{
     width: 100%;
     height: max-content;
     /* background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e); */
-    background-color: #000000ed;
+    background-color: grey;
     background-size: 180% 180%;
     /* animation: gradient-animation 6s ease infinite; */
     overflow-x: hidden;
@@ -38,7 +38,7 @@ html{
 
 body {
   color: rgb(var(--foreground-rgb));
-  
+  background-color: #000000ed;
   max-width: 748px;
   margin: 10px auto;
   padding: 10px 10px;
@@ -185,6 +185,15 @@ body {
     gap: 10px;
     font-size: .8rem;
     opacity: .8;
+  }
+
+  .post_frase{
+    font-style: italic !important;;
+  }
+
+  .full-width{
+    width: 100%;
+    height: auto;
   }
 }
 
