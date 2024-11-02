@@ -1,0 +1,90 @@
+[
+    {
+        "element": "h1",
+        "content": "Asi estabamos y asi arrancamos de vuelta"
+    },
+    {
+        "element": "h3",
+        "content": "Pasado"
+    },
+    {
+        "element": "p",
+        "content": "En mi vida he hecho bastante deporte y bastantes deportes. Soy una persona a la que le gusta probar cosas nuevas y no le asusta tener que empezar de 0."
+    },
+    {
+        "element": "h2",
+        "content": "Futsal y boxeo"
+    },
+    {
+        "element": "p",
+        "content": "Mi primer deporte fue el futsal (futbol de salon) cuando tenia de 6 a 12 años. Lo practicaba en mi colegio y jugabamos contra otros colegios de montevideo (si no recuerdo mal, no ganamos ningun partido 😂, pero yo me divertia). <br> En el boxeo iba mas por el ejercicio que por aprender a pelear."
+    },
+    {
+        "element": "h2",
+        "content": "Rugby"
+    },
+    {
+        "element": "p",
+        "content": "Mas o menos a los 18 (me iba despegando del colegio/liceo) dejé de hacer futsal y hice por mi cuenta gimnasio (sin tener un objetivo concreto, mas por mantenerme en movimiento que otra cosa). Un dia un amigo me propuso empezar a hacer rugby, y yo que no me puedo negar a las nuevas experiencias le dije que si enseguida. Yo no soy una persona grande, asi que iba con cierto miedo, pero una vez me di cuenta que mi virtud no era el tamaño sino la velocidad, todo cambio. Creo que de 8 patidos que jugamos en el que salimos mejor fue un empate (me empiezo a dar cuenta que nunca gano nada 🤣).<br> El equipo que se habia formado de 0 era como una pequeña familia, a medida que crecia, crecian los problemas. Llegó un punto en el que no quise ser parte del problema y decidí irme en buenos terminos con todos."
+    },
+    {
+        "element": "h2",
+        "content": "Kungfu"
+    },
+    {
+        "element": "p",
+        "content": "Siempre tuve la espina de saber que se sentia hacer un arte marcial, asi que como no, como a toda oportunidad de probar algo nuevo no me resisto empecé a indagar en youtube las diferentes artes marciales existentes a las que tenia acceso en Uruguay. Miré taekwondo, karate, haikido, sistemas de defensa personal y kungfu. A la vista el kungfu me enamoró y cuando me enteré que los movimientos de <i>Avatar: la leyenda de ang</i> se inspiran mucho del kungu, la desicion estaba tomada.<br> Estuve 2 años haciendo kungfu y la verdad la pasé genial. Lo unico que no me gusta y descubrí que me aleja de cualquier actividad es que cada tanto me tomen pruebas. A mi me gusta hacer las cosas como hobbie, no necesito un rango, ni una distincion, nada, yo solo quiero hacer la actividad."
+    },
+    {
+        "element": "h2",
+        "content": "Previa escuela naval"
+    },
+    {
+        "element": "p",
+        "content": "Venia de kungfu asi que venia muy bien fisicamente. Me enfoqué mas y ademas de kungfu, salia a correr, hacia abs, lagartijas y entrenamientos HIT que encontraba en youtube todos los dias. <br> Haber entrado en la escuela naval fue el resultado de mi disguto con la facultad de ingenieria, entonces al dejar la escuela naval porque tampoco me convencia me sentí perdido. Este lado de mi vida estaba tocando fondo pero por suerte estaba comenzando con mi pareja (con la que continuo y espero continuar para siempre) y ese lado sostenia todo mi ser. A esto hay que sumarle que no tenia trabajo tampoco, por suerte mis viejos nunca me pusieron una fecha limite para vivir en su casa."
+    },
+    {
+        "element": "two-columns",
+        "columns": [
+                {
+                    "element": "image",
+                    "content": "deporteAntes.jpg",
+                    "class": "half-width"
+                },{
+                    "element": "p",
+                    "content": "Esta la pude rescatar de mi instagram (mi amigo con el que entrenaba la subio), en ese entonces no tenia reloj ni llevaba el celular cuando corria para registrar los entrenamientos. <br><br> Esta creo que es la sesion de mas kilometros y ritmo medio de toda mi vida. En esa epoca cada dia mejorabamos un poquito mas."
+                }]
+    },
+    {
+        "element": "h2",
+        "content": "Despues de la escuela naval"
+    },
+    {
+        "element": "p",
+        "content": "Como dije en el parrafo anterior mi vida estaba dividida, la parte fisica/academica destruida por venir de estos 2 'fracasos' asi que me dejé estar. De vez en cuando salia a correr, lo hacia 2 semanas y lo volvia a dejar. <br> En este momento conseguí trabajo en un deposito de una rotiseria y en un baile, asi que por lo menos algo de fuerza hacia."
+    },
+    {
+        "element": "h2",
+        "content": "Octubre 2024"
+    },
+    {
+        "element": "two-columns",
+        "columns": [
+                {
+                    "element": "image",
+                    "content": "deporteActual.jpeg",
+                    "class": "half-width"
+                },{
+                    "element": "p",
+                    "content": "Estoy arrancando tranqui para lo que algun dia llegué a hacer (10kms seguidos sin cansarme mucho). Por ahora vengo bien, al final de cada sesion siento que puedo seguir un poco mas pero no quiero lesionarme (tampoco tengo apuro por llegar a ningun lado)."
+                }]
+    },
+    {
+        "element": "h2",
+        "content": "Conclusiones"
+    },
+    {
+        "element": "p",
+        "content": "En la vida siempre estuve haciendo algo, aunque despues de la escuela naval me dejé estar mucho. En la actualidad trabajando como FrontEnd no estaba haciendo nada hasta ahora que voy a arrancar enserio.<br> Creo que aprendí mucho de todas las actividades que hice y me gustaria resaltar un aprendizaje que me ayudó cuando hacia rugby. Despues de varias practicas estando con miedo de no ser capaz de jugar porque no soy una persona grande, entendí que yo podia aportar velocidad. <br><i>Me di cuenta que no tengo que ver que aportan los demas e intentar dar el doble de lo mismo, tengo que ver que puedo dar yo y darlo todo en ese area.</i>"
+    }
+]

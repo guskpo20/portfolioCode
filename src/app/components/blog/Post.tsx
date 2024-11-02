@@ -6,6 +6,7 @@ interface ElementData {
   items?: string[];
   sublist?: string[];
   class?: string;
+  columns?: [];
 }
 
 interface JsonToHtmlProps {
@@ -43,9 +44,31 @@ export default function JsonToHtml({ filename }: JsonToHtmlProps) {
         return (
           <p key={index} dangerouslySetInnerHTML={{ __html: element.content || "" }} />
         );
-      case "image":
+      case "image": 
         return (
-          <img src={element.content} className={element.class}/>
+          <img src={element.content} className={element.class} />
+        );
+      case "two-columns": 
+        return (
+          <div className="flex-container" key={index}>
+            {element.columns && element.columns.map((item: any, subIndex) => {
+              // Renderiza según el tipo de elemento (p o image)
+              if (item && item.element === "image") {
+                return (
+                  <div key={subIndex} className="">
+                    <img src={item.content} alt={`Image ${subIndex + 1}`} className={item.class ? item.class : ""}/>
+                  </div>
+                );
+              } else if (item.element === "p") {
+                return (
+                  <div key={subIndex} className="column">
+                    <p dangerouslySetInnerHTML={{ __html: item.content || "" }} />
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </div>
         );
       case "frase":
         return (

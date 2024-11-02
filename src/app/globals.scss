@@ -195,6 +195,25 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .flex-container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .column{
+      max-width: 50%;
+      width: 100%;
+      display: flex;
+    }
+  }
+
+  .half-width{
+    max-width: 300px;
+    width: 100%;
+  }
 }
 
 

@@ -10,16 +10,23 @@ const posts = [
     {
         fileName: "introduccion.json",
         tags: ["introduccion"],
-        title: "Introduccion",
+        title: "✨Introduccion",
         date: "28-10-2024",
         content: "Una breve explicación del porque de este blog."
     },
     {
         fileName: "background.json",
         tags: ["introduccion", "personal"],
-        title: "Mi pasado",
+        title: "⌛Mi pasado",
         date: "01-01-2024",
         content: "Una miradita al Gustavo antes de ser FrontEnd developer en una empresa."
+    } ,
+    {
+        fileName: "fitnes_octubre_2024.json",
+        tags: ["fitnes", "personal"],
+        title: "💪Arrancamos de vuelta a hacer ejercicio",
+        date: "01-11-2024",
+        content: "Veamos como arranco este camino una vez mas en mi vida y un vistazo a lo que era."
     } 
 ];
 
