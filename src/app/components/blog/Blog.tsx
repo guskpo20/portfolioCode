@@ -27,6 +27,13 @@ const posts = [
         title: "💪Arrancamos de vuelta a hacer ejercicio",
         date: "01-11-2024",
         content: "Veamos como arranco este camino una vez mas en mi vida y un vistazo a lo que era."
+    },
+    {
+        fileName: "post_jovenes_a_programar.json",
+        tags: ["trabajo", "consejos"],
+        title: "💡Cambio de mentalidad",
+        date: "06-11-2024",
+        content: "Aca fue cuando me di cuenta de que estaba encarando ciertos temas mal, cambié y funcionó."
     } 
 ];
 
@@ -56,17 +63,17 @@ function Blog() {
         <div className={`${styles.blog} ${isDarkMode ? styles.dark : styles.light}`}>
             
             {postSelected !== postNoSelected && (
-                <>
-                    <button className="button" onClick={() => setPostSelected(postNoSelected)}>Volver a Blog</button>
+                <div className='post'>
+                    <button className="button" onClick={() => setPostSelected(postNoSelected)}>⬅ Volver a Blog</button>
                     <Post filename={postSelected} />
-                </>
+                </div>
             )}
 
             {postSelected === postNoSelected && (
                 <>
                     <h2>Blog</h2>
                     <p>En esta seccion cuento lo que creo que puede ayudar a otros en base a mi experiencia o lo que necesito contar.</p>
-                    <button className="button frases_button" onClick={() => setPostSelected("frases.json")}>Frases que me gustaron</button>
+                    <button className="button frases_button" onClick={() => setPostSelected("frases.json")}>✍️ Frases que me gustaron</button>
                     {tags.length > 0 && (
                         <div className={styles.tagsSection}>
                             <h2>Tags:</h2>

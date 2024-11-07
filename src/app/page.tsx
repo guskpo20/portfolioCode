@@ -67,14 +67,14 @@ function Home() {
       
       {blog && (
         <>
-          <button className="button" onClick={() => setBlog(!blog)}>Portfolio</button>
+          <button className="button" onClick={() => setBlog(!blog)}>💼 Portfolio</button>
           <div className='divider'></div>
           <Blog />
         </>
       )}
       {!blog && (
         <>
-          <button className="button" onClick={() => setBlog(true)}>Blog</button>
+          <button className="button" onClick={() => setBlog(true)}>📄 Blog</button>
           <div className='divider'></div>
           <Experience />
           <Projects />
