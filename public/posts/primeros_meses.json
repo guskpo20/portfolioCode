@@ -1,0 +1,62 @@
+[
+    {
+        "element": "h1",
+        "content": "Primeros 6 meses como FrontEnd dev"
+    },
+    {
+        "element": "h2",
+        "content": "Primer mes y medio"
+    },
+    {
+        "element": "p",
+        "content": "El cambio de un trabajo fuera del rubro a llegar el primer dia a la oficina fue gigante (tener aire acondicionado, vending machine, cocina, posibilidade de homeoffice y un trabajo que siempre quisiste). La verdad que ese primer mes y medio no hice ninguna tarea como tal, hice bastantes trainings (tantos legales como tecnicos), conocí al equipo, las herramientas, el horario, etc.... Obviamente en esta epoca tenia mucha ansiedad (no estar haciendo ninguna tarea) y nervios (capaz que tanto no me necesitan si no tengo tareas para hacer), pero creo que es algo comun y que tenemos que aprender a llevar con paz."
+    },
+    {
+        "element": "h2",
+        "content": "Hasta el tecer mes"
+    },
+    {
+        "element": "p",
+        "content": "Ya en el final del segundo/inicio del tercer mes algun email hacia (obviamente con supervision las primeras veces y preguntando cosas las veces que no me supervisaban) y cuando veia que tenia mucho sin una tarea, iba con el coordinador y le pedia si no tenia algun email con pocos/faciles cambios que me pudiera asignar. "
+    },
+    {
+        "element": "h2",
+        "content": "Del 4rto en adelante"
+    },
+    {
+        "element": "p",
+        "content": "Ya en esta epoca me empezaron a pasar mas tareas, no solo emails. Si bien fueron un reto enorme, salieron en tiempo y forma (obviamente si el codigo se viera hoy por expertos seria catalogado como dañino a la salud). Ya los emails los hacia solo, sin preguntar (a no ser que me trancara con algo nuevo). Esta bien no querer preguntar y hacer las cosas solos (para algo nos pagan), pero si esto involucra trancar una tarea que tiene fecha de entrega hoy a final del dia, dejemos nuestro ego de lado, pidamos ayuda, prestemos atencion y la que viene lo hacemos solo."
+    },
+    {
+        "element": "h2",
+        "content": "Estres"
+    },
+    {
+        "element": "p",
+        "content": "El estres es un tema. Hay dia que estas todo el dia haciendo cosas, desarrollando, en reuniones, desarrollando mientras estas en reuniones (que es gracioso, porque no prestas atencion a la reunion pero tenes que estar ahi); y hay otros dias en los que literalmente no haces nada. Creo que el truco es saber organizar los tiempos. Por ejemplo yo tenia una pagina web que tenia que salir hoy y un email que tenia que salir mañana, el gustavo de ese entonces trabajaria todo el dia para que salgan las dos cosas hoy. El gustavo de hoy analizaria el email para ver si puede hacerlo mañana, asi hoy hace la web mas tranquilo, tomandose descansos entre sesion de desarrollo  y al final del dia no estar tan cansado o con estres."
+    },
+    {
+        "element": "h2",
+        "content": "Comparandolo con otros trabajos"
+    },
+    {
+        "element": "p",
+        "content": "Creo que a nivel estres este es el trabajo que se lleva el premio. Igual asi como este trabajo estresa, estar en un deposito encerrado o cobrar algo en el rugby y escuchar que la tribuna se queja deprime. Cada trabajo tiene lo suyo, lo que me gusta de este rubro es que todos los dias hago algo nuevo. Si bien una pagina web se compone siempre de las mismas cosas, el como las haces varia porque cada una tiene ciertas especificaciones distintas a la anterior. Los emails que son paginas web chiquitas y con codigo que parece sacado del 2010, son estremadamente rigidos, no hay lugar para la imaginacion o eleccion del codigo, a veces sorprenden tambien. En este trabajo siento que avanzo, que cada dia se mas."
+    },
+    {
+        "element": "h2",
+        "content": "Miedo a no cumplir y la IA"
+    },
+    {
+        "element": "p",
+        "content":"Les mentiria si les dijera que no tengo miedo a que me echen cuando una tarea no sale como esperaba, o tiene varias rondas de bugs. Siempre esta ese miedo, y las noticias lo intencifican. Entrar a internet y ver que google despidió a 150 personas o que la IA es capaz de generar una pagina web obviamente asusta al principio. Mas tarde, le vas perdiendo un poco el miedo y te vas dando cuenta que no es tan asi como lo que te venden. La IA esta bien, si, pero necesita un desarollador que pueda modificar el codigo generico que nos brinda. <br /> Un buen ejemplo es la industria de los videojuegos: primero nos vendieron que el futuro era jugar en la nube, fracasó; despues que las VR iban a cambiar todo, fracasó; despues los nft, fracasó. Al final, hoy en dia seguimos jugando como venimos jugando desde siempre"
+    },
+    {
+        "element": "h2",
+        "content": "Conclusiones"
+    },
+    {
+        "element": "p",
+        "content":"Si tuviera que dejar un mensaje, diria que elijan algo que les gusta y intenten hacerlo parte de sus vidas. Ya sea como trabajo o como hobbie. Obviamente hasta llega a ese algo van a tener que hacer cosas que capaz no les gustan tanto pero asi es la vida. Yo si aun no trabajará como dev o si mañana me quedo sin laburo, seguiría por mi cuenta desarrollando juegos/webs como hobbie, trabajaria de lo que hiciera falta y seguiria buscando mi puesto en la industria.<br> Sobre los miedos, siempre van a estar, seas empleado o jefe, vas a tener miedos diferentes pero los vas a tener. Hay que aprender a vivir con ellos y no darles la importancia que les damos a veces."
+    }
+]

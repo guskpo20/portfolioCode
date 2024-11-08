@@ -34,7 +34,14 @@ const posts = [
         title: "💡Cambio de mentalidad",
         date: "06-11-2024",
         content: "Aca fue cuando me di cuenta de que estaba encarando ciertos temas mal, cambié y funcionó."
-    } 
+    },
+    {
+        fileName: "primeros_meses.json",
+        tags: ["trabajo", "personal"],
+        title: "👷‍♂️Primeros 6 meses",
+        date: "08-11-2024",
+        content: "Como me fueron y sentí estos primeros meses en la industria del desarrollo."
+    }  
 ];
 
 function Blog() {
